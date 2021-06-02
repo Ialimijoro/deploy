@@ -11,7 +11,6 @@ body {
   min-height: 100vh;
   background: #0f8a9d;
   background: linear-gradient(57deg, #00c6a7, #1e4d92);
-  
 
   color: white;
   font-size: 16px;
@@ -21,9 +20,9 @@ img {
 }
 
 #main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .form-head {
@@ -35,14 +34,14 @@ img {
   font-weight: bold;
 }
 
-@media (min-width: 576px) {  
-    body{
-        clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-    }
+@media (min-width: 576px) {
+  body {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+  }
 }
 .navbar-brand {
-    white-space: normal;
+  white-space: normal;
 }
 .nav-link {
-    text-decoration: underline;
+  text-decoration: underline;
 }

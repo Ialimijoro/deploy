@@ -179,6 +179,8 @@ img {
 .server-join-btn:hover {
   box-shadow: 0 0 7px 3px #019c85;
   background-color: #019c85;
+  color: #fff;
+  text-decoration: none;
 }
 
 .server-join-btn span {
